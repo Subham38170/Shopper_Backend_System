@@ -19,4 +19,4 @@ class Product(SQLModel,table=True):
     price: float = Field(default='0.0')
     categoryId: uuid.UUID = Field(foreign_key='category.uid')
 
-    category: Category = Relationship(back_populates='categories')
+    category: Category = Relationship(back_populates='category')

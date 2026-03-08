@@ -1,5 +1,5 @@
-from ..db.models.product import Product
-from ..utils.config import logging
+from db.models.product import Product
+from utils.config import logging
 from sqlmodel import select
 from sqlmodel.ext.asyncio.session import AsyncSession
 

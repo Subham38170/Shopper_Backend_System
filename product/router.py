@@ -3,7 +3,7 @@ from .schema import ProductResponse
 from .schema import ProductResponse
 from .services import Productservice
 from sqlmodel.ext.asyncio.session import AsyncSession
-from ..db.main import get_session
+from db.main import get_session
 
 
 product_router = APIRouter()
